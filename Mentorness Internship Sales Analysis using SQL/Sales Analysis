@@ -44,11 +44,11 @@ return rate = (100.0 * total return orders) / total buy orders Hint: You will ne
 (i.e. 100.0 - 100.0 * total amount paid / total displayed selling price) &  the net discount from mrp (i.e. 100.0 - 100.0 * total amount paid / total mrp) 
  
 ## Advance Questions: 
-15.	For every order_id (exclude returns), get the product name and calculate the discount percentage from selling price. Sort by highest discount and print only those rows where discount percentage was above 10.10%. 
- 
+15.	For every order_id (exclude returns), get the product name and calculate the discount percentage from selling price. Sort by highest discount and print only those rows where discount percentage was above 10.10%.
+
 16.	Using the per unit procurement cost in product_dim, find which product category has made the most profit in both absolute amount and percentage Absolute Profit = Total Amt Sold - Total Procurement Cost 
-Percentage Profit = 100.0 * Total Amt Sold / Total Procurement Cost - 100.0  
- 
+Percentage Profit = 100.0 * Total Amt Sold / Total Procurement Cost - 100.0 
+
 17.	For every delivery person(use their name), print the total number of order ids (exclude returns) by month in separate columns i.e. there should be one row for each delivery_person_id and 12 columns for every month in the year 
  
 18.	For each gender - male and female - find the absolute and percentage profit (like in Q15) by product name 
